@@ -1,0 +1,55 @@
+nav {
+    background-color: #0d6efd; /* Bootstrap primary color */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Space out brand and links */
+  }
+  
+  nav .nav-pills .nav-link {
+    color: #fff; /* White text color */
+    font-weight: 500; /* Semi-bold text */
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  nav .nav-pills .nav-link:hover {
+    background-color: #084298; /* Darker shade for hover */
+    color: #f8f9fa; /* Muted white for contrast */
+  }
+  
+  nav .nav-pills .nav-link.active {
+    background-color: #ffffff; /* Highlight active link */
+    color: #0d6efd; /* Primary color for active link */
+    font-weight: bold;
+  }
+  nav .fs-4 {
+    color: #ffffff; /* White color for the brand name */
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  nav .fs-4:hover {
+    color: #f8f9fa; /* Slightly muted white on hover */
+  }
+
+  nav .nav-pills {
+    gap: 10px; /* Space between links */
+  }
+  
+  @media (max-width: 768px) {
+    nav {
+      flex-wrap: wrap;
+      justify-content: center; /* Center content on smaller screens */
+    }
+    nav .nav-pills {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  nav {
+    position: sticky;
+    top: 0;
+    z-index: 1020; /* Ensures it stays above other elements */
+  }
+  

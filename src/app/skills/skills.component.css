@@ -1,0 +1,26 @@
+#tech-stack {
+    background-color: #f8f9fa; /* Light background for contrast */
+    border-radius: 8px; /* Slight rounding for section */
+    padding: 40px 20px;
+  }
+  
+  .tech-card {
+    background-color: #ffffff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .tech-card:hover {
+    transform: translateY(-5px); /* Subtle lift effect */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Shadow effect on hover */
+  }
+  
+  .tech-icon {
+    width: 60px;
+    height: 60px;
+  }
+  
+  h5 {
+    font-size: 1.25rem;
+    color: #0d6efd; /* Primary color */
+  }
+  

@@ -1,0 +1,24 @@
+#experience-section h2 {
+    font-size: 2.5rem;
+    color: #0d6efd; /* Primary color */
+  }
+  
+  .card-text {
+    font-size: 1rem; /* Standard paragraph size */
+    color: #6c757d; /* Bootstrap muted color */
+  }
+  
+  .card-title {
+    font-size: 1.5rem; /* Slightly larger for emphasis */
+  }
+  
+  .card-footer a {
+    font-weight: bold;
+  }
+  .row {
+  row-gap: 2rem; /* Adds vertical spacing between cards */
+}
+
+.card-body {
+  padding: 20px 15px;
+}

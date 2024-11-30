@@ -1,0 +1,28 @@
+#about-me {
+    background-color: #f8f9fa; /* Light gray background for contrast */
+    border-radius: 8px;
+    padding: 40px 20px;
+  }
+  
+  #about-me h2 {
+    color: #0d6efd; /* Primary color for heading */
+  }
+  
+  #about-me img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  #about-me img:hover {
+    transform: scale(1.05); /* Subtle zoom effect on hover */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Enhanced shadow */
+  }
+  
+  #about-me .btn {
+    background-color: #0d6efd; /* Primary button */
+    border: none;
+  }
+  
+  #about-me .btn:hover {
+    background-color: #084298; /* Darker shade on hover */
+  }
+  

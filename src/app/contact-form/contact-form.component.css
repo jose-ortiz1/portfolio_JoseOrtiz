@@ -1,0 +1,25 @@
+#contact-form-section {
+    background-color: #f8f9fa;
+    padding: 60px 20px;
+  }
+  
+  #contact-form-section h2 {
+    color: #0d6efd;
+  }
+  
+  #contact-form-section form {
+    border: 1px solid #dee2e6;
+  }
+  
+  #contact-form-section .btn {
+    background-color: #0d6efd;
+    border: none;
+  }
+  
+  #contact-form-section .btn:hover {
+    background-color: #084298;
+  }
+  
+  #contact-form-section textarea {
+    resize: none;
+  }

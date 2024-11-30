@@ -1,0 +1,64 @@
+footer {
+    background-color: #212529; /* Dark background */
+    color: #f8f9fa; /* Light text color */
+  }
+  
+  footer a {
+    color: #f8f9fa;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  footer a:hover {
+    color: #0d6efd; /* Bootstrap primary color for hover */
+  }
+  
+  footer hr {
+    border-top: 1px solid #6c757d; /* Muted divider */
+  }
+  
+  footer h5 {
+    color: #ffffff; /* Bright white for section headings */
+  }
+  
+  footer p, footer ul {
+    font-size: 0.9rem;
+    color: #ced4da; /* Muted text color */
+  }
+  
+  footer .bi {
+    fill: #f8f9fa; /* White icons */
+    transition: fill 0.3s ease-in-out;
+  }
+  
+  footer .bi:hover {
+    fill: #0d6efd; /* Primary color for hover effect */
+  }
+  
+  /* Style the Back-to-Top Button */
+.back-to-top {
+    position: fixed;
+    bottom: 20px; /* Distance from the bottom */
+    right: 20px; /* Distance from the right */
+    z-index: 1030; /* Ensure it stays above most elements */
+    border-radius: 50%; /* Circular button */
+    padding: 8px 12px; /* Small button size */
+    font-size: 0.9rem; /* Smaller text */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: opacity 0.3s ease, transform 0.3s ease; /* Smooth transitions */
+    /* opacity: 0; Hidden by default */
+    /* visibility: hidden; */
+  }
+  
+  /* Show Button on Scroll */
+  .back-to-top.show {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+  
+  /* Hover Effect */
+  .back-to-top:hover {
+    background-color: #084298; /* Darker shade of primary */
+    transform: scale(1.1); /* Slightly enlarge */
+  }
+  
