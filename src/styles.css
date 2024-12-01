@@ -1,3 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
 
 @import "../node_modules/bootstrap/dist/css/bootstrap.css"; /* bootstrap library */
+
+html {
+    scroll-padding-top: 70px; /* Adjust this to match your navbar height */
+  }
+  

@@ -8,12 +8,14 @@ import { ExperienceComponent } from './experience/experience.component';
 import { ContactFormComponent } from './contact-form/contact-form.component';
 
 export const routes: Routes = [
-    {path: '', redirectTo: '/homePage', pathMatch: 'full'},
-    {path: 'about-me', component: AboutMeComponent},
-    {path: 'tech-stack', component: SkillsComponent},
+    {path: '', redirectTo: '/home', pathMatch: 'full'},
+    {path: 'about', component: AboutMeComponent},
+    {path: 'skills', component: SkillsComponent},
     {path: 'projects', component: ProjectsComponent},
     {path: 'experience', component: ExperienceComponent},
-    {path: 'contact-me', component: ContactFormComponent}
+    {path: 'contact', component: ContactFormComponent},
+    {path: 'home', component: HomePageComponent},
+    
 ];
 
 @NgModule({

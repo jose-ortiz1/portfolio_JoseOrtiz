@@ -1,18 +1,10 @@
 import { bootstrapApplication } from '@angular/platform-browser';
-import { provideRouter, withEnabledBlockingInitialNavigation, Routes} from '@angular/router';
-import { appConfig } from './app/app.config';
+import { provideRouter, Routes, withEnabledBlockingInitialNavigation } from '@angular/router';
 import { AppComponent } from './app/app.component';
-import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
-import { RouterModule, ExtraOptions } from '@angular/router';
 
-const routerOptions: ExtraOptions = {
-  anchorScrolling: 'enabled', // Enable fragment scrolling
-  scrollPositionRestoration: 'enabled', // Restore scroll position when navigating back
-};
-
-const routes: Routes   = [
-  { path: '', redirectTo: '/about', pathMatch: 'full' },
+const routes: Routes = [
+  //{ path: '', redirectTo: '/home', pathMatch: 'full' },
+  { path: 'home', loadComponent: () => import('./app/home-page/home-page.component').then(m => m.HomePageComponent) },
   { path: 'about', loadComponent: () => import('./app/about-me/about-me.component').then(m => m.AboutMeComponent) },
   { path: 'skills', loadComponent: () => import('./app/skills/skills.component').then(m => m.SkillsComponent) },
   { path: 'projects', loadComponent: () => import('./app/projects/projects.component').then(m => m.ProjectsComponent) },
