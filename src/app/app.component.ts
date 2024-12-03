@@ -18,6 +18,7 @@ import { ContactFormComponent } from "./contact-form/contact-form.component";
 })
 export class AppComponent {
 
+
   title = 'portfolio_Angular';
   sections = [
     { id: 'home', offset: 0 },
@@ -34,7 +35,7 @@ export class AppComponent {
     this.sections.forEach((section) => {
       const element = document.getElementById(section.id);
       if (element) {
-        section.offset = element.offsetTop - 70; // Adjust for fixed navbar height
+        section.offset = element.offsetTop - 90; // Adjust for fixed navbar height
       }
     });
 
@@ -50,6 +51,8 @@ export class AppComponent {
       const activeLink = document.querySelector(`a[href="#${currentSection.id}"]`);
       if (activeLink) activeLink.classList.add('active');
     }
+    
   }
+  
 }
 
